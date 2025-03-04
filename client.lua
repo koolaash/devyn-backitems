@@ -133,7 +133,7 @@ function removeAllBackItems()
     end
 end
 
-RegisterNetEvent('weapons:client:SetCurrentWeapon', function(weap, shootbool)
+RegisterNetEvent('qb-weapons:client:SetCurrentWeapon', function(weap, shootbool)
     if weap == nil then
         createBackItem(currentWeapon)
         currentWeapon = nil
